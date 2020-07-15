@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 
-
+//user info
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -15,7 +15,6 @@ const promptUser = () => {
           return false;
         }
       }
-
     },
     {
       type: 'input',
@@ -133,8 +132,18 @@ Add a New Project
   
 };
 
+//call function for show in console
 promptUser()
   .then(promptProject)
   .then(portfolioData => {
     console.log(portfolioData);
   });
+
+
+
+
+
+
+
+
+ 
