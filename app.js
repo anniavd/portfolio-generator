@@ -1,7 +1,7 @@
-const fs = require('fs');
+
 const inquirer = require('inquirer');
-const generatePage = require('./src/page-template');
-require('./utils/generate-site')
+const generatePage = require('./src/page-template.js');
+const { writeFile, copyFile } = require('./utils/generate-site');
 
 //user info
 const promptUser = () => {
@@ -10,7 +10,7 @@ const promptUser = () => {
       type: 'input',
       name: 'name',
       message: 'What is your name?',
-      validate: nameInput => {
+      validate: nameInput => {           //validation the entry
         if (nameInput) {
           return true;
         } else {
@@ -136,6 +136,7 @@ Add a New Project
 };
 
 //call function for show in console
+
 promptUser()
   .then(promptProject)
   .then(portfolioData => {
@@ -154,10 +155,6 @@ promptUser()
   .catch(err => {
     console.log(err);
   });
-
- 
-
-
 
 
 
