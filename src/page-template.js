@@ -13,8 +13,8 @@ const generateAbout = aboutText => {
     </section>
   `;
 };
-
-
+ 
+//create the projects secction
 const generateProjects = projectsArr => {
   return `
     <section class="my-3" id="portfolio">
@@ -58,6 +58,7 @@ const generateProjects = projectsArr => {
   `;
 };
 
+//generate the html
 module.exports = templateData => {
   // destructure page data by section
   const { projects, about, ...header } = templateData;
