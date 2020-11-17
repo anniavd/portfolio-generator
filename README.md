@@ -28,7 +28,10 @@ When the user need anserw question about his projects
 
 
 # Technologies 
-
+- HTML5
+- CSS3
+- NODE
+- JAVASCRIPT
 
 # Questions
 
