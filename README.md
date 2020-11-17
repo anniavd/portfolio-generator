@@ -1,18 +1,30 @@
-# Portfolio Gernerator
+# Portfolio Generator
 
 
- ![Homepage have a red botton for portfolio generator](/images/homepage.jpg)
+ ![Homepage portfolio generator](/images/homepage.jpg)
 
   _____________________________________________________________________
 
- ## Visit the site! [Portfolio Gernerator](https://anniavd.github.io/password-generator/)
 
  
 # Installation 
+- Clone the app on your pc.
+- Open the console terminal and write the line command `node app`.
+
 
 
 # Usage
+- When the user runs the application on the console, the application will show some questions that the user will answer to generate the portfolio.
+- To see the generated html go to the `dist folder` and open the html in the browser.
 
+Image from the question about you and when add a project and need select the tools.
+
+ ![screenshot for the console questions about you](/images/question1.jpg)
+
+
+When the user need anserw question about his projects
+
+ ![screenshot for the console questions about projects](/images/add-project.jpg)
 
 
 # Technologies 
