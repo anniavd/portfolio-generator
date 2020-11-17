@@ -1,5 +1,9 @@
 # Portfolio Generator
 
+# Description
+
+Portfolio Generator is a Back-End application to generate a professional portfolio html with all the necessary criteria.The user is asked a series of questions about information on his github and the names and links of his projects to show.
+
 
  ![Homepage portfolio generator](/images/homepage.jpg)
 
